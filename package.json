@@ -1,0 +1,18 @@
+{
+  "name": "npm_test",
+  "version": "1.0.0",
+  "description": "패키지에 대한 설명",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "nodemon index",
+    "start": "pm2 index.js"
+  },
+  "author": "작성자명",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
